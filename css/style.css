@@ -111,3 +111,20 @@ ul{
 	margin-right: 36px;
 	margin-bottom: 75px;
 }
+
+.copyright {
+	margin-top: 8px;
+	font-size: 78%;
+	float: left;
+	width: 25%;
+}
+
+#footer ul {
+	margin-top: 8px;
+	text-align: right;
+}
+
+#footer ul li {
+	margin-left: 4px;
+	display: inline;
+}
