@@ -122,6 +122,10 @@ ul{
 	margin-bottom: 75px;
 }
 
+#content p{
+	margin-bottom: 1em;
+}
+
 .copyright {
 	margin-top: 8px;
 	font-size: 78%;
