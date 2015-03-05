@@ -67,6 +67,7 @@ ul{
 	padding-right: 60px;
 	font-size: 95%;
 	line-height: 1.2em;
+	opacity: 0.95;
 }
 
 #footer{
@@ -95,9 +96,18 @@ ul{
 	background-position: 0 -34px;
 }
 
+#navigation .custom-coffee a:hover, #navigation .custom-coffee a.current {
+	background-position: -165px -34px;
+}
+
 #navigation .custom-coffee a {
 	width: 128px;
 	background-position: -165px 0;
+}
+
+#navigation .give-us-a-shout a{
+	width: 126px;
+	background-position:  -293px 0;
 }
 
 #life-liberty-pursuit {
