@@ -60,7 +60,7 @@ ul{
 	z-index: 50;
 	width: 701px;
 	height: 327px;
-	background: #eae4c9 url(../images/backgrounds/content.png) repeat-x;
+	background: #eae4c9 url(../images/content.png) repeat-x;
 	color: #494238;
 	padding-top: 64px;
 	padding-left: 62px;
@@ -110,6 +110,10 @@ ul{
 	background-position:  -293px 0;
 }
 
+#navigation .give-us-a-shout a:hover, #navigation .give-us-a-shout a.current {
+	background-position: -293px -34px;
+}
+
 #life-liberty-pursuit {
 	float: right;
 	margin-top: 8px;
@@ -141,4 +145,38 @@ ul{
 #footer ul li {
 	margin-left: 4px;
 	display: inline;
+}
+
+#give-us-a-shout {
+	text-align: center;
+}
+
+#give-us-a-shout p{
+	margin-top: 1.5em;
+}
+
+#give-us-a-shout p.phone {
+	margin-top: 0.7em;
+	font-size: 180%;
+}
+
+#give-us-a-shout dl {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 80%;
+	color: #554138;
+	margin-bottom: 0.3em;
+}
+
+#give-us-a-shout dl dt{
+	font-weight: bold;
+	display: inline;
+}
+
+#give-us-a-shout dl dd{
+	display: inline;
+}
+
+#give-us-a-shout a{
+	color: #ce312c;
+	text-decoration: none;
 }
